@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Cambiar Ubicación"
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/map_marker_radius"
+        android:menuCategory="container"/>
+</menu>

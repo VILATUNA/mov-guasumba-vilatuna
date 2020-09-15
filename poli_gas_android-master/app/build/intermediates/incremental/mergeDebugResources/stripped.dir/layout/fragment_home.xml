@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <!-- Data to make available to the XML via data binding. In this case,
+     the whole ViewModel, so that we can access the LiveData,
+     click handlers, and state variables. -->
+    
+
+                 
+                                
+                                                             
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_app"
+        tools:context="com.example.poli_gas.home.HomeFragment" android:tag="layout/fragment_home_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <com.jama.carouselview.CarouselView
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            app:carouselOffset="center"
+            app:enableSnapping="true"
+            app:indicatorAnimationType="drop"
+            app:indicatorPadding="5"
+            app:indicatorRadius="5"
+            app:indicatorSelectedColor="@color/white"
+            app:indicatorUnselectedColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:scaleOnScroll="false"
+            app:size="10"
+            app:spacing="10" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/quantity_cylinders"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/carousel" />
+
+
+        <Button
+            android:id="@+id/decrease_button"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/minus_sing"
+            android:tag="binding_1"                                    
+            app:layout_constraintEnd_toStartOf="@+id/quantity_text"
+            app:layout_constraintTop_toBottomOf="@+id/carousel" />
+
+        <TextView
+            android:id="@+id/quantity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="65dp"
+            android:fontFamily="sans-serif"
+            android:tag="binding_2"                           
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/carousel" />
+
+        <Button
+            android:id="@+id/increase_button"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/plus_sing"
+            android:tag="binding_3"                                    
+            app:layout_constraintStart_toEndOf="@+id/quantity_text"
+            app:layout_constraintTop_toBottomOf="@+id/carousel" />
+
+
+        <Button
+            android:id="@+id/make_order_button"
+            android:layout_width="140dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg_button"
+            android:fontFamily="sans-serif"
+            android:text="@string/make_request"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

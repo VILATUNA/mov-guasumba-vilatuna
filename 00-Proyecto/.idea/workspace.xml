@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a308522-de68-4d60-b658-ff227ce74611" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -39,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mov-vilatuna-jonathan/02-android" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -115,9 +118,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="637" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598012037608">
+    <state x="801" y="119" key="FileChooserDialogImpl" timestamp="1598272485883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="637" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598012037608" />
+    <state x="801" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598272485883" />
+    <state x="637" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598272372541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="637" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598272372541" />
   </component>
 </project>

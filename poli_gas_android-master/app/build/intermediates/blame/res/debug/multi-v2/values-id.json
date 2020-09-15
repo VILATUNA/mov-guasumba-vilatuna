@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ALEX\\.gradle\\caches\\transforms-2\\files-2.1\\6122b37162e5a285e39d012c6b472b04\\jetified-mapbox-android-navigation-ui-0.42.4\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,157",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "100,152,205"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "113,163,215",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "158,210,263"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ALEX\\.gradle\\caches\\transforms-2\\files-2.1\\9f07bdc905cd774683b14d737288eac5\\jetified-mapbox-android-navigation-0.42.4\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

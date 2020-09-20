@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment__welcome.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment__welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_progress_request.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_progress_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order_detail.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item_poligas_express.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\list_item_poligas_express.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item_poligas_scheduler.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\list_item_poligas_scheduler.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_scheduler_order.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_scheduler_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_scheduler_order_detail.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_scheduler_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_navigation_map.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_navigation_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_account.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_express_order.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_express_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_info_user.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_info_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_feedback.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_schedule_request.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_schedule_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_auth_user.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_auth_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_type_request.xml",
+        "source": "C:\\Users\\ALEX\\Documents\\GitHub\\mov-guasumba-vilatuna\\poli_gas_android-master\\app\\src\\main\\res\\layout\\fragment_type_request.xml"
+    }
+]

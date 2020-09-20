@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_controller"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.poli_gas.welcome.WelcomeFragment"
+        android:label="StartFragment"
+        tools:layout="@layout/fragment__welcome">
+        <action
+            android:id="@+id/action_startFragment_to_authUserFragment"
+            app:destination="@id/authUserFragment"
+            app:enterAnim="@anim/slide_down_top"
+            app:exitAnim="@anim/slide_out_left"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.poli_gas.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_typeRequestFragment"
+            app:destination="@id/typeRequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/feedbackFragment"
+        android:name="com.example.poli_gas.feedback.FeedbackFragment"
+        android:label="FeedbackFragment"
+        tools:layout="@layout/fragment_feedback">
+        <action
+            android:id="@+id/action_feedbackFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_down_top"
+            app:exitAnim="@anim/slide_up_top" />
+    </fragment>
+    <fragment
+        android:id="@+id/progressRequestFragment"
+        android:name="com.example.poli_gas.progress_request.ProgressRequestFragment"
+        android:label="ProgressRequestFragment"
+        tools:layout="@layout/fragment_progress_request">
+        <action
+            android:id="@+id/action_progressRequestFragment_to_feedbackFragment"
+            app:destination="@id/feedbackFragment"
+            app:enterAnim="@anim/slide_down_top"
+            app:exitAnim="@anim/slide_up_top"
+            app:popUpTo="@+id/homeFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_progressRequestFragment_to_navigationMapFragment"
+            app:destination="@id/navigationMapFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <argument
+            android:name="progressState"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/scheduleRequestFragment"
+        android:name="com.example.poli_gas.schedule_request.ScheduleRequestFragment"
+        android:label="ScheduleRequestFragment"
+        tools:layout="@layout/fragment_schedule_request">
+        <action
+            android:id="@+id/action_scheduleRequestFragment_to_progressRequestFragment"
+            app:destination="@id/progressRequestFragment" />
+        <argument
+            android:name="totalCylinder"
+            app:argType="string" />
+        <argument
+            android:name="typeCylinder"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_scheduleRequestFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typeRequestFragment"
+        android:name="com.example.poli_gas.type_request.TypeRequestFragment"
+        android:label="TypeRequestFragment"
+        tools:layout="@layout/fragment_type_request">
+        <action
+            android:id="@+id/action_typeRequestFragment_to_progressRequestFragment"
+            app:destination="@id/progressRequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_typeRequestFragment_to_scheduleRequestFragment"
+            app:destination="@id/scheduleRequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <argument
+            android:name="typeCylinder"
+            app:argType="integer" />
+        <argument android:name="totalCylinder"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.poli_gas.map.MapFragment"
+        android:label="MapFragment"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_mapFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/fade_out"
+            app:exitAnim="@anim/slide_down_top"
+            app:popUpTo="@+id/startFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/authUserFragment"
+        android:name="com.example.poli_gas.authuser.AuthUserFragment"
+        android:label="AuthUserFragment"
+        tools:layout="@layout/fragment_auth_user">
+        <action
+            android:id="@+id/action_authUserFragment_to_mapFragment"
+            app:destination="@id/mapFragment"
+            app:enterAnim="@anim/slide_up_top"
+            app:exitAnim="@anim/slide_out_left"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationMapFragment"
+        android:name="com.example.poli_gas.mapnavigation.NavigationMapFragment"
+        android:label="NavigationMapFragment"
+        tools:layout="@layout/fragment_navigation_map">
+        <action
+            android:id="@+id/action_navigationMapFragment_to_progressRequestFragment"
+            app:destination="@id/progressRequestFragment"
+            app:enterAnim="@anim/slide_down_top"
+            app:exitAnim="@anim/slide_up_top"
+            app:popUpTo="@+id/typeRequestFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="latitud"
+            app:argType="string" />
+        <argument
+            android:name="longitud"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.poli_gas.myaccount.AccountFragment"
+        android:label="AccountFragment"
+        tools:layout="@layout/fragment_account"/>
+    <fragment
+        android:id="@+id/expressOrderFragment"
+        android:name="com.example.poli_gas.expressorder.ExpressOrderFragment"
+        android:label="ExpressOrderFragment"
+        tools:layout="@layout/fragment_express_order">
+        <action
+            android:id="@+id/action_expressOrderFragment_to_orderDetailFragment"
+            app:destination="@id/orderDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="com.example.poli_gas.detailorder.OrderDetailFragment"
+        android:label="OrderDetailFragment"
+        tools:layout="@layout/fragment_order_detail">
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_orderDetailFragment_to_expressOrderFragment"
+            app:destination="@id/expressOrderFragment"
+            app:enterAnim="@anim/slide_down_top"
+            app:exitAnim="@anim/slide_up_top"
+            app:popUpTo="@+id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schedulerOrderDetailFragment"
+        android:name="com.example.poli_gas.detailorder.SchedulerOrderDetailFragment"
+        android:label="SchedulerOrderDetailFragment"
+        tools:layout="@layout/fragment_scheduler_order_detail">
+        <action
+            android:id="@+id/action_schedulerOrderDetailFragment_to_schedulerOrderFragment"
+            app:destination="@id/schedulerOrderFragment"
+            app:enterAnim="@anim/slide_down_top"
+            app:exitAnim="@anim/slide_up_top"
+            app:popUpTo="@+id/accountFragment" />
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/schedulerOrderFragment"
+        android:name="com.example.poli_gas.scheduleorder.SchedulerOrderFragment"
+        android:label="SchedulerOrderFragment"
+        tools:layout="@layout/fragment_scheduler_order">
+        <action
+            android:id="@+id/action_schedulerOrderFragment_to_schedulerOrderDetailFragment"
+            app:destination="@id/schedulerOrderDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.poli_gas.mysettings.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings"/>
+</navigation>

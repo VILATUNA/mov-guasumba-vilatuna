@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "643766081738",
+    "firebase_url": "https://medigas-53175.firebaseio.com",
+    "project_id": "medigas-53175",
+    "storage_bucket": "medigas-53175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643766081738:android:524834355cfa8c8fc3fc33",
+        "android_client_info": {
+          "package_name": "com.example.poli_gas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643766081738-3p7caq6ljn81l6apsussc0u72jnus1t1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.poli_gas",
+            "certificate_hash": "474a778861cd05de63a21984dbc28ce3b6f43df9"
+          }
+        },
+        {
+          "client_id": "643766081738-9khbnc7o16av00q05aoq11ac4dqdlm3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4KI8tsllqveJ6Xk3zMjT4khC5GhO2n24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643766081738-9khbnc7o16av00q05aoq11ac4dqdlm3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
